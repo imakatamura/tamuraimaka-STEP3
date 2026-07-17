@@ -1,0 +1,171 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  background-color: #f5f4eb;
+  color: #2f4f37;
+  line-height: 1.8;
+  text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul{list-style: none;
+}
+
+header {
+    background-color: #436449;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+header p {
+   font-size: 12px;
+   font-style: italic;
+   opacity: 0.9;
+   margin-bottom: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+section{
+   padding: 60px 20px;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+h2{
+    font-size: 22px;
+    color: #436449;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #b2c2b6;
+    padding-bottom: 8px;
+}
+
+section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #4a5d4e;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.menu-item img {
+    margin-bottom: 15px;
+    max-width: 120px;
+    object-fit: cover;
+}
+
+.menu-item p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #436449;
+}
+
+form {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #436449;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c2cdc5;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+form button, 
+form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #436449; /* ボタンも深緑 */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+  background-color: #35503a;
+}
+
+footer {
+  background-color: #2e4433;
+  color: #ffffff;
+  padding: 25px;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
